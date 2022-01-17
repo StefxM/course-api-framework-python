@@ -73,3 +73,17 @@ Feel free to use the
 in this repo to ✍🏼 your thoughts or even use the disqus comments section on the blogs.
 
 Happy learning!
+
+# Notes:
+To run api locally with python:
+- activate virtual environment
+- open the folder the API is in
+- execute 'python-server.py'
+- open swagger to check
+
+Build the local database
+-inside the virtual environment 'python_build database.py' (creates a database with a table and inserted data)
+
+starting the flask server 'python server.py' (this would run on the localhost 5000 port)
+
+you can use postman to hit the API - 
